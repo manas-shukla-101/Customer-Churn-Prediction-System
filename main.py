@@ -31,7 +31,7 @@ warnings.filterwarnings('ignore')
 # Page configuration
 st.set_page_config(
     page_title="Customer Churn Prediction System",
-    page_icon="C:\Users\Lucky Yadav\Downloads\icon.png",
+    page_icon="C:/Users/Lucky Yadav/Downloads/icon.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -521,5 +521,6 @@ def page_analytics_dashboard():
 
 if __name__ == "__main__":
     main()
+
 
 
