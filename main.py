@@ -39,10 +39,11 @@ st.sidebar.markdown("---")
 st.logo("icon.png")
 st.markdown(
     """
+    ---
     <style>
         [alt=Logo] {
             height: 6rem; /* Adjust this value */
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
     </style>
     """,
@@ -534,6 +535,7 @@ def page_analytics_dashboard():
 
 if __name__ == "__main__":
     main()
+
 
 
 
