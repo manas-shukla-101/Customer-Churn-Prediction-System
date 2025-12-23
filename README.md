@@ -31,7 +31,7 @@ Customer churn prediction is critical for business retention. This system helps 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/churn-prediction.git
+git clone https://github.com/manas-shukla-101/Customer-Churn-Prediction-System.git
 cd churn-prediction
 
 # Create virtual environment
@@ -121,5 +121,6 @@ Created for customer retention analytics and churn mitigation strategies.
 
 ---
 ---
+
 
 _Created with 💗 by Manas Shukla_
