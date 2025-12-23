@@ -40,6 +40,7 @@ st.markdown(
     """
     <style>
         [alt=Logo] {
+            top: 10px;
             height: 6rem; /* Adjust this value */
         }
     </style>
@@ -532,6 +533,7 @@ def page_analytics_dashboard():
 
 if __name__ == "__main__":
     main()
+
 
 
 
