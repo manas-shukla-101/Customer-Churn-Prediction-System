@@ -35,6 +35,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+st.logo("icon.png")
 
 # Custom CSS
 st.markdown("""
@@ -521,6 +522,7 @@ def page_analytics_dashboard():
 
 if __name__ == "__main__":
     main()
+
 
 
 
