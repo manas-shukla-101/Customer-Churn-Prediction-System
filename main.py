@@ -8,11 +8,7 @@ XGBoost is employed as the machine learning model for its efficiency and perform
 In this, you understand why customers leave a service not just how to predict future churn.
 So, you can implement strategies to retain customers and improve business outcomes.
 """
-"""
-Customer Churn Prediction System
-Main Streamlit Application
-An interactive web application for customer churn prediction and analysis.
-"""
+
 
 import streamlit as st
 import pandas as pd
@@ -535,6 +531,7 @@ def page_analytics_dashboard():
 
 if __name__ == "__main__":
     main()
+
 
 
 
