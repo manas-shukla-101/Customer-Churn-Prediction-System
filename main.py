@@ -35,8 +35,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-st.sidebar.image("icon.png", width=150)
-st.image("icon.png", width=150)
+st.logo("icon.png")
+st.markdown(
+    """
+    <style>
+        [alt=Logo] {
+            height: 3rem; /* Adjust this value */
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # Custom CSS
 st.markdown("""
