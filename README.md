@@ -52,6 +52,11 @@ This aligns with real-world churn scenarios where incorrect predictions can lead
   - Confusion Matrix
   - ROC Curve
   - Feature Importance plots
+### Model Comparison
+A baseline Logistic Regression model was initially evaluated to establish performance benchmarks. However, it demonstrated lower precision and ROC-AUC compared to XGBoost.
+
+Given the non-linear nature of customer behavior data and the need for reliable churn risk identification, XGBoost was selected as the final model due to its improved predictive performance and robustness.
+
 
 ---
 
@@ -126,3 +131,4 @@ streamlit run main.py
 ## 👨‍💻 Author
 **Manas Shukla**
 _Data Analytics | Machine Learning | Business Insights_
+
